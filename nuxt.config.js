@@ -1,0 +1,1 @@
+export default defineNuxtConfig({css:['~/assets/css/main.css'],devtools:{enabled:false},runtimeConfig:{databaseUrl:process.env.DATABASE_URL||''},app:{head:{title:'Momentum | Coaching that moves with you',meta:[{name:'description',content:'A responsive fitness coaching and member-progress experience.'},{name:'theme-color',content:'#071d22'}]}}})
